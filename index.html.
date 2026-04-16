@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مبادرة مهارة مخبرية | Lab Skill Initiative</title>
+    <style>
+        :root {
+            --primary: #2c3e50; /* كحلي مخبري */
+            --accent: #27ae60;  /* أخضر دفع واشتراك */
+            --white: #ffffff;
+        }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f9fbfb; color: #333; }
+        
+        /* الهيدر واللوجو */
+        nav { 
+            background: var(--white); 
+            padding: 10px 5%; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .logo-placeholder { 
+            width: 150px; 
+            height: 50px; 
+            background: #eee; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center;
+            border: 1px dashed #ccc;
+        }
+
+        /* قسم الترحيب */
+        .hero { 
+            text-align: center; 
+            padding: 80px 20px; 
+            background: var(--primary); 
+            color: white; 
+        }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        
+        /* أزرار التواصل والدفع */
+        .contact-buttons { margin-top: 30px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
+        .btn { 
+            padding: 12px 25px; 
+            text-decoration: none; 
+            border-radius: 8px; 
+            font-weight: bold; 
+            transition: 0.3s;
+        }
+        .btn-whatsapp { background: #25d366; color: white; }
+        .btn-messenger { background: #0084ff; color: white; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">
+        <div class="logo-placeholder">مكان اللوجو قريباً</div>
+    </div>
+    <div class="nav-links">
+        <a href="login.html" style="text-decoration:none; color:var(--primary); font-weight:bold;">تسجيل دخول</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <h1>مبادرة مهارة مخبرية</h1>
+    <p>بوابتك لاحتراف العمل المخبري خطوة بخطوة</p>
+    
+    <div class="contact-buttons">
+        <a href="https://wa.me/رقم_هاتفك" class="btn btn-whatsapp">تواصل عبر واتساب للشراء</a>
+        <a href="https://m.me/اسم_صفحتك" class="btn btn-messenger">تواصل عبر ماسنجر</a>
+    </div>
+</section>
+
+</body>
+</html>
